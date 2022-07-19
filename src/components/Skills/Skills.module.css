@@ -1,0 +1,23 @@
+.skills {
+    /*border: 1px solid;*/
+    height: 100vh;
+    background-color: #ffa645;
+}
+
+.container {
+    /*flex-direction: column;*/
+    justify-content: center;
+}
+
+.title {
+    background-color: #c9d7ff;
+}
+
+.skillsList {
+    border: 1px solid;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /*align-items: center;*/
+}

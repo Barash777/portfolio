@@ -1,0 +1,15 @@
+.main {
+    background-color: pink;
+    height: 100vh;
+}
+
+.about {
+    width: 300px;
+    background-color: #e879ff;
+}
+
+.photo {
+    width: 300px;
+    height: 400px;
+    background-color: #c9d7ff;
+}
