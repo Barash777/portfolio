@@ -5,7 +5,7 @@ import SkillItem from './SkillItem/SkillItem';
 
 const Skills = () => {
     return (
-        <div className={css.skills}>
+        <div id={'skills'} className={css.skills}>
             <div className={`${cssContainer.container} ${css.container}`}>
                 {/*<div className={`${cssContainer.container}`}>*/}
                 <h2 className={css.title}>Skills</h2>

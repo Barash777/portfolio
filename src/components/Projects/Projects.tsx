@@ -5,7 +5,7 @@ import ProjectItem from './ProjectItem/ProjectItem';
 
 const Projects = () => {
     return (
-        <div className={css.projects}>
+        <div id={'projects'} className={css.projects}>
             <div className={`${cssContainer.container} ${css.container}`}>
                 <h2 className={css.title}>Projects</h2>
                 <div className={css.projectsList}>

@@ -5,7 +5,7 @@ import cssContainer from '../../common/styles/Container.module.css'
 
 const Contacts = () => {
     return (
-        <div className={css.freelance}>
+        <div id={'contacts'} className={css.freelance}>
             <div className={`${cssContainer.container} ${css.container}`}>
                 <h2 className={css.title}>Contact me</h2>
                 <form action="/" className={css.form} method="">
