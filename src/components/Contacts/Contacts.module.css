@@ -1,0 +1,26 @@
+.freelance {
+    background-color: #a1f2ff;
+    min-height: 40vh;
+}
+
+.form {
+    width: 250px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+}
+
+.formTextarea {
+    resize: none;
+}
+
+.container {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title {
+    background-color: #0e5d00;
+    /*font-size: 2em;*/
+    /*margin-bottom: 20px;*/
+}

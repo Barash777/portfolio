@@ -1,0 +1,34 @@
+.footer {
+    background-color: #fcaabd;
+    /*min-height: 50vh;*/
+}
+
+.container {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title {
+    background-color: #a1f2ff;
+}
+
+.socials {
+    background-color: #fff6f1;
+    border: 1px solid;
+    width: 250px;
+    height: 52px;
+    /*margin: 10px;*/
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon {
+    height: 50px;
+    width: 50px;
+    background-color: #ea6767;
+}
+
+.copyright {
+    background-color: #ff16ff;
+}

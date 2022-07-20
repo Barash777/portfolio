@@ -1,8 +1,8 @@
-.skills {
+.projects {
     /*border: 1px solid;*/
     /*height: 100vh;*/
     min-height: 100vh;
-    background-color: #ffa645;
+    background-color: #45ffdd;
 }
 
 .container {
@@ -11,10 +11,10 @@
 }
 
 .title {
-    background-color: #c9d7ff;
+    background-color: #fc5b81;
 }
 
-.skillsList {
+.projectsList {
     border: 1px solid;
     width: 100%;
     display: flex;

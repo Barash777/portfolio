@@ -8,7 +8,7 @@ const Main = () => {
             <div className={cssContainer.container}>
                 <div className={css.about}>
                     <span>Hi</span>
-                    <h1>I am ...</h1>
+                    <h1>I am Siarhei Baranouski</h1>
                     <p>Frontend developer</p>
                 </div>
                 <div className={css.photo}></div>

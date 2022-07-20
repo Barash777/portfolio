@@ -1,28 +1,32 @@
 import React from 'react';
-import css from './SkillItem.module.css'
+import button from '../../../common/styles/Button.module.css'
+import css from './ProjectItem.module.css'
 
-export type SkillItemPropsType = {
+export type ProjectItemPropsType = {
     img?: string
     title?: string
     description?: string
 }
 
-const SkillItem = (props: SkillItemPropsType) => {
+const ProjectItem = (props: ProjectItemPropsType) => {
     return (
         <div className={css.item}>
-            <div className={css.icon}>
-                {props.img ? props.img : 'logo'}
+            <div className={css.imgContainer}>
+                <a href="#" className={button.button}>Show</a>
             </div>
-            <span className={css.title}><h3>{props.title ? props.title : 'TITLE'}</h3></span>
-            <span className={css.description}>
+            <div className={css.descriptionContainer}>
+                <span className={css.title}>{props.title ? props.title : 'TITLE'}</span>
+                <span className={css.description}>
                 {props.description ? props.description : 'Lorem ipsum' +
                     ' dolor sit amet, consectetur adipisicing elit. Accusantium, ' +
                     'adipisci animi architecto aspernatur commodi dolore excepturi ' +
                     'facilis ipsum nisi odit, officiis quia, quidem quod recusandae ' +
                     'rem sit tempore? Minus, molestias!'}
             </span>
+            </div>
+
         </div>
     );
 };
 
-export default SkillItem;
+export default ProjectItem;
