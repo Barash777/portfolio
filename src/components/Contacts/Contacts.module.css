@@ -4,7 +4,8 @@
 }
 
 .form {
-    width: 250px;
+    min-width: 250px;
+    width: 50%;
     border: 1px solid;
     display: flex;
     flex-direction: column;
@@ -23,4 +24,18 @@
     background-color: #0e5d00;
     /*font-size: 2em;*/
     /*margin-bottom: 20px;*/
+}
+
+.bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    /*font-family: poppins;*/
+    color: transparent;
+    font-size: 150px;
+    font-weight: 900;
+    opacity: .1;
+    line-height: 0;
+    -webkit-text-stroke: 1px #000;
+    -webkit-user-select: none
 }

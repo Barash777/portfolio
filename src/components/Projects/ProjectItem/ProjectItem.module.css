@@ -1,11 +1,14 @@
 .item {
-    width: 400px;
+    width: 350px;
+    /*max-width: 400px;*/
     /*height: 300px;*/
     background-color: #dcb9b7;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    /*padding: 10px;*/
+    /*margin: 10px 100px;*/
 }
 
 
@@ -16,6 +19,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    /*padding: 10px;*/
 }
 
 .descriptionContainer {
