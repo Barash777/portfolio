@@ -1,0 +1,117 @@
+.title {
+  margin-bottom: 30px;
+
+  h2 {
+    /*margin: 50px;*/
+    /*font-weight: bold;*/
+    margin: 0;
+    color: #0b0b13;
+    position: relative;
+    z-index: 1;
+    font-weight: 600;
+    font-size: 30px;
+    display: inline-block;
+    vertical-align: top;
+    line-height: 1.2;
+    text-transform: capitalize;
+
+    &::after {
+      content: "";
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      background: rgba(255, 147, 1, 0.5);
+      position: absolute;
+      top: -8px;
+      left: -15px;
+      z-index: -1;
+      /*box-sizing: border-box;*/
+    }
+  }
+}
+
+/*.title h2 {
+  !*margin: 50px;*!
+  !*font-weight: bold;*!
+  margin: 0;
+  color: #0b0b13;
+  position: relative;
+  z-index: 1;
+  font-weight: 600;
+  font-size: 30px;
+  display: inline-block;
+  vertical-align: top;
+  line-height: 1.2;
+  text-transform: capitalize;
+}
+
+.title h2::after {
+  content: "";
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: rgba(255, 147, 1, 0.5);
+  position: absolute;
+  top: -8px;
+  left: -15px;
+  z-index: -1;
+  !*box-sizing: border-box;*!
+}*/
+
+/*
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+
+}
+
+@media (min-width: 320px) and (max-width: 479px) {
+
+}
+
+@media (max-width: 320px) {
+
+}
+*/
+
+/*
+!* Large desktops and laptops *!
+@media (min-width: 1200px) {
+
+}
+
+!* Landscape tablets and medium desktops *!
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+!* Portrait tablets and small desktops *!
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+!* Landscape phones and portrait tablets *!
+@media (max-width: 767px) {
+
+}
+
+!* Portrait phones and smaller *!
+@media (max-width: 480px) {
+
+}
+
+!* Iphone 5 *!
+@media (max-width: 320px) {
+
+}
+*/

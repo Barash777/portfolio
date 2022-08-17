@@ -1,18 +1,26 @@
 import React from 'react';
 import button from '../../../common/styles/Button.module.css'
-import css from './ProjectItem.module.css'
+import css from './ProjectItem.module.scss'
 
 export type ProjectItemPropsType = {
-    img?: string
+    // img?: string
     title?: string
     description?: string
+    imgStyle?: any
 }
 
 const ProjectItem = (props: ProjectItemPropsType) => {
+
+    const testStyle = {
+        zIndex: 1
+    }
+
     return (
         <div className={css.item}>
             <div className={css.imgContainer}>
-                <a href="#" className={button.button}>Show</a>
+                <div className={css.img} style={props.imgStyle}>
+                    <a href="#" style={testStyle} className={button.button}>Show</a>
+                </div>
             </div>
             <div className={css.descriptionContainer}>
                 <span className={css.title}>{props.title ? props.title : 'TITLE'}</span>
@@ -22,7 +30,7 @@ const ProjectItem = (props: ProjectItemPropsType) => {
                     'adipisci animi architecto aspernatur commodi dolore excepturi ' +
                     'facilis ipsum nisi odit, officiis quia, quidem quod recusandae ' +
                     'rem sit tempore? Minus, molestias!'}
-            </span>
+                </span>
             </div>
 
         </div>

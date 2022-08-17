@@ -2,13 +2,15 @@ import React from 'react';
 import cssContainer from '../../common/styles/Container.module.css'
 import css from './Skills.module.css'
 import SkillItem from './SkillItem/SkillItem';
+import Title from '../../common/components/Title/Title';
 
 const Skills = () => {
     return (
         <div id={'skills'} className={css.skills}>
             <div className={`${cssContainer.container} ${css.container}`}>
                 {/*<div className={`${cssContainer.container}`}>*/}
-                <h2 className={css.title}>Skills</h2>
+                {/*<h2 className={css.title}>Skills</h2>*/}
+                <Title title={'Skills'}/>
                 <div className={css.skillsList}>
                     <SkillItem title={'HTML & CSS'}/>
                     <SkillItem img={'jsLogo'} title={'JS'} description={'xcv'}/>

@@ -1,19 +1,8 @@
-* {
-    box-sizing: border-box;
-}
-
-.App {
-
-
-}
-
 /*
-.container {
-    border: 1px solid black;
-    height: 100%;
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}*/
+h2, h3 {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+*/

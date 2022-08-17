@@ -1,35 +1,38 @@
-.projects {
-    /*border: 1px solid;*/
-    /*height: 100vh;*/
-    /*min-height: 100vh;*/
-    background-color: #f7f7ff;
-}
+@import '../../styles/scss/modules/mixin';
 
-.container {
+.projects {
+  /*border: 1px solid;*/
+  /*height: 100vh;*/
+  /*min-height: 100vh;*/
+  //background-color: #f7f7ff;
+  
+  //@include changeBgColor();
+
+  .container {
     flex-direction: column;
     justify-content: center;
 
-}
-
-.title {
-    background-color: #fc5b81;
-}
-
-.projectsList {
-    border: 1px solid;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin: 0 auto;
-    /*align-items: center;*/
-}
-
-@media (max-width: 879px) {
     .projectsList {
+      /*border: 1px solid;*/
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin: 0 auto;
+      align-items: flex-start;
+      @media (max-width: 1018px) {
         justify-content: center;
+      }
     }
+  }
 }
+
+
+/*@media (max-width: 1004px) {
+  .projectsList {
+    justify-content: center;
+  }
+}*/
 
 /*
 @media (min-width: 1200px) {
