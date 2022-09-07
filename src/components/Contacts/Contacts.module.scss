@@ -1,0 +1,21 @@
+.contacts {
+  background-color: #a1f2ff;
+  min-height: 40vh;
+}
+
+.form {
+  min-width: 250px;
+  width: 50%;
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+}
+
+.formTextarea {
+  resize: none;
+}
+
+.container {
+  flex-direction: column;
+  justify-content: center;
+}

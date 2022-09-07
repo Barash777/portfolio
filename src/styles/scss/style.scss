@@ -1,10 +1,15 @@
-@import "modules/variable";
-@import "modules/mixin";
-@import "modules/base";
-//@import "modules/button";
-//@import "modules/color";
-//@import "modules/header";
+@import "parts/variable";
+
+@import "../bootstrap/bootstrap.min.css";
+@import "../../assets/fontawesome/all.min.css";
+//@import "../fontawesome/scss/fontawesome";
+
+@import "parts/mixin";
+@import "parts/base";
+@import "parts/button";
+@import "parts/color";
+@import "parts/header";
 //@import "modules/footer";
 //@import "modules/blog";
-//@import "modules/portfolio";
-//@import "modules/style";
+@import "parts/portfolio";
+@import "parts/common";

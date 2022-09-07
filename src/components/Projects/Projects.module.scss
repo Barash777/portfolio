@@ -1,28 +1,24 @@
-@import '../../styles/scss/modules/mixin';
+@import '../../styles/scss/parts/mixin';
 
 .projects {
   /*border: 1px solid;*/
   /*height: 100vh;*/
   /*min-height: 100vh;*/
   //background-color: #f7f7ff;
-  
+
   //@include changeBgColor();
 
-  .container {
-    flex-direction: column;
-    justify-content: center;
 
-    .projectsList {
-      /*border: 1px solid;*/
-      width: 100%;
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      margin: 0 auto;
-      align-items: flex-start;
-      @media (max-width: 1018px) {
-        justify-content: center;
-      }
+  .projectsList {
+    /*border: 1px solid;*/
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    align-items: flex-start;
+    @media (max-width: 1018px) {
+      justify-content: center;
     }
   }
 }

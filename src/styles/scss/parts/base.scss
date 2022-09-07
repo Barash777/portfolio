@@ -1,20 +1,44 @@
+
 html {
   overflow-x: hidden;
 }
 
-body {
-  background: $px-bg-1;
-  color: $px-body;
+
+/*body {
+  //background: $px-bg-1;
+  //color: $px-body;
+  //font-weight: 300;
   font-family: $px-font;
   line-height: $px-line-height;
   font-size: $px-font-size;
-  font-weight: 300;
+  background: $px-white;
+  color: $px-body-light;
+  font-weight: 400;
 
   &.theme-light {
     background: $px-white;
     color: $px-body-light;
     font-weight: 400;
   }
+}*/
+
+.main {
+  background: $px-bg-1;
+  color: $px-body;
+  font-weight: 300;
+  font-family: $px-font;
+  line-height: $px-line-height;
+  font-size: $px-font-size;
+
+  &.theme-light {
+    background: $px-white;
+    color: $px-body-light;
+    font-weight: 400;
+  }
+}
+
+.test-style {
+  color: green;
 }
 
 .font-alt {
@@ -27,6 +51,7 @@ img {
 
 * {
   outline: none !important;
+  //box-sizing: border-box;
 }
 
 a {
@@ -35,6 +60,13 @@ a {
     color: darken($px-theme, 8%);
     text-decoration: none;
   }
+}
+
+button {
+  font-family: $px-font;
+  line-height: $px-line-height;
+  font-size: $px-font-size;
+  box-sizing: content-box;
 }
 
 mark {
@@ -136,5 +168,69 @@ mark {
       width: auto;
       max-width: 100%;
     }
+  }
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px
+  }
+}
+
+.container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto
+}
+
+@media (min-width: 576px) {
+  .container, .container-sm {
+    max-width: 540px
+  }
+}
+
+@media (min-width: 768px) {
+  .container, .container-md, .container-sm {
+    max-width: 720px
+  }
+}
+
+@media (min-width: 992px) {
+  .container, .container-lg, .container-md, .container-sm {
+    max-width: 960px
+  }
+}
+
+@media (min-width: 1200px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1140px
   }
 }
