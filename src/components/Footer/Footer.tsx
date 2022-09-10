@@ -1,11 +1,11 @@
 import React from 'react';
 import css from './Footer.module.css'
-import cssContainer from '../../common/styles123/Container.module.css'
+// import cssContainer from '../../common/styles123/Container.module.css'
 
 const Footer = () => {
     return (
-        <div className={css.footer}>
-            <div className={`${cssContainer.container} ${css.container}`}>
+        <footer className={'footer white'}>
+            <div className={'container'}>
                 <h2 className={css.title}>Siarhei Baranouski</h2>
                 <div className={css.socials}>
                     <div className={css.icon}></div>
@@ -15,7 +15,7 @@ const Footer = () => {
                 </div>
                 <span className={css.copyright}>© 2022 All rights reserved</span>
             </div>
-        </div>
+        </footer>
     );
 };
 

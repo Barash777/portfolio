@@ -1,11 +1,11 @@
 import React from 'react';
 import css from './Main.module.css'
-import cssContainer from '../../common/styles123/Container.module.css'
+// import cssContainer from '../../common/styles123/Container.module.css'
 
-const Main = () => {
+const About = () => {
     return (
-        <div id={'main'} className={css.main}>
-            <div className={cssContainer.container}>
+        <section id={'about'} className={'section'}>
+            <div className={'container'}>
                 <div className={css.about}>
                     <span>Hi</span>
                     <h1>I am Siarhei Baranouski</h1>
@@ -13,8 +13,8 @@ const Main = () => {
                 </div>
                 <div className={css.photo}></div>
             </div>
-        </div>
+        </section>
     );
 };
 
-export default Main;
+export default About;

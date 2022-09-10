@@ -1,27 +1,27 @@
 import React from 'react';
 import Header from './components/Header/Header';
-import Main from './components/Main/Main';
+import About from './components/Main/About';
 import Skills from './components/Skills/Skills';
 import Projects from './components/Projects/Projects';
 import Freelance from './components/Freelance/Freelance';
 import Contacts from './components/Contacts/Contacts';
 import Footer from './components/Footer/Footer';
-import Test from './components/Test/Test';
-
+// import Test from './components/Test/Test';
 // import Loading from './components/Loading/Loading';
 
 function App() {
     return (
-        <div className="main theme-light">
-            {/*<div className="main theme-light fixed-header vsc-initialized">*/}
+        <div className="main theme-light fixed-header">
             <Header/>
-            <Main/>
-            <Skills/>
-            <Projects/>
-            <Freelance/>
-            <Contacts/>
+            <div className={'main-left'}>
+                <About/>
+                <Skills/>
+                <Projects/>
+                <Freelance/>
+                <Contacts/>
+                {/*<Test/>*/}
+            </div>
             <Footer/>
-            <Test/>
         </div>
     );
 }

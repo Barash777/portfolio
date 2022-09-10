@@ -14,17 +14,12 @@ import {faEnvelope} from '@fortawesome/free-solid-svg-icons'
 
 const Header = () => {
     return (
-        /*<div className={css.header}>
-            <div className={`${cssContainer.container} ${css.container}`}>
-                <Navigation/>
-            </div>
-        </div>*/
 
         <>
             <MobileHeader/>
 
 
-            <header className="header-left" id="navbar-collapse-toggle">
+            <header className="header-left">
                 <div className="scroll-bar">
                     <div className="hl-top">
                         {/*<div className="hl-logo">*/}
@@ -41,23 +36,24 @@ const Header = () => {
                         {/*<FontAwesomeIcon icon={faEnvelope}/>*/}
                     </div>
                     <ul className="nav nav-menu">
-                        <li>
+                        {/*<li>
                             <a className="nav-link active" href="#home" data-toggle="tooltip" title="HOME">
                                 <i className="fas fa-house-damage"></i>
                             </a>
-                        </li>
+                        </li>*/}
                         <li>
-                            <a className="nav-link" href="#about" data-toggle="tooltip" title="ABOUT">
+                            <a className="nav-link active" href="#about" data-toggle="tooltip" title="ABOUT">
                                 <i className="far fa-address-card"></i>
                             </a>
                         </li>
                         <li>
                             <a className="nav-link" href="#resume" data-toggle="tooltip" title="RESUME">
-                                <i className="far fa-file"></i>
+                                {/*<i className="far fa-file"></i>*/}
+                                resume
                             </a>
                         </li>
                         <li>
-                            <a className="nav-link" href="#work" data-toggle="tooltip" title="WORK">
+                            <a className="nav-link" href="#projects" data-toggle="tooltip" title="PROJECTS">
                                 <i className="fas fa-briefcase"></i>
                             </a>
                         </li>
@@ -67,8 +63,9 @@ const Header = () => {
                             </a>
                         </li>
                         <li>
-                            <a className="nav-link" href="#contactus" data-toggle="tooltip" title="CONTACT">
+                            <a className="nav-link" href="#contacts" data-toggle="tooltip" title="CONTACT">
                                 <i className="fas fa-id-card-alt"></i>
+                                {/*contacts*/}
                             </a>
                         </li>
                     </ul>

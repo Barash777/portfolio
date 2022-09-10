@@ -2,16 +2,12 @@
     /*border: 1px solid;*/
     /*height: 100vh;*/
     min-height: 100vh;
-    background-color: #ffa645;
+    /*background-color: #ffa645;*/
 }
 
 .container {
     flex-direction: column;
     justify-content: center;
-}
-
-.title {
-    background-color: #c9d7ff;
 }
 
 .skillsList {

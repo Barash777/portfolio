@@ -2,7 +2,7 @@ import React from 'react';
 
 const Test = () => {
     return (
-        <section id="resume" className="section">
+        <section id="resume123" className="section">
             <div className="container">
                 <div className="title">
                     <h3>Experience.</h3>
