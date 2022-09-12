@@ -1,10 +1,27 @@
 {
   "files": {
-    "main.js": "/portfolio/static/js/main.7265f521.js",
+    "main.css": "/portfolio/static/css/main.1d9354e6.css",
+    "main.js": "/portfolio/static/js/main.d3dcaa80.js",
+    "static/js/111.6b0d8be4.chunk.js": "/portfolio/static/js/111.6b0d8be4.chunk.js",
+    "static/media/fa-solid-900.ttf": "/portfolio/static/media/fa-solid-900.b48ad290d0335879a92b.ttf",
+    "static/media/m-portfolio-1.jpeg": "/portfolio/static/media/m-portfolio-1.ed003722d4160dfc3ea9.jpeg",
+    "static/media/fa-brands-400.ttf": "/portfolio/static/media/fa-brands-400.f9ee61fab3c11e2f3ed3.ttf",
+    "static/media/fa-solid-900.woff2": "/portfolio/static/media/fa-solid-900.66104b766c3d0462b3c5.woff2",
+    "static/media/fa-brands-400.woff2": "/portfolio/static/media/fa-brands-400.e1a247a5ef41e1975742.woff2",
+    "static/media/m-portfolio-2.jpeg": "/portfolio/static/media/m-portfolio-2.0484f770a0fbe5029e30.jpeg",
+    "static/media/m-portfolio-9.jpeg": "/portfolio/static/media/m-portfolio-9.342ff5b0bc0038ba679d.jpeg",
+    "static/media/fa-regular-400.ttf": "/portfolio/static/media/fa-regular-400.abf801b7acb6705a15ad.ttf",
+    "static/media/avatar_enot.jpeg": "/portfolio/static/media/avatar_enot.7a3352cad690c4e31be4.jpeg",
+    "static/media/fa-regular-400.woff2": "/portfolio/static/media/fa-regular-400.639d2000c1ece92eaec8.woff2",
+    "static/media/fa-v4compatibility.ttf": "/portfolio/static/media/fa-v4compatibility.f601162ae669f88823a3.ttf",
+    "static/media/fa-v4compatibility.woff2": "/portfolio/static/media/fa-v4compatibility.745989aab0d69cab7e70.woff2",
     "index.html": "/portfolio/index.html",
-    "main.7265f521.js.map": "/portfolio/static/js/main.7265f521.js.map"
+    "main.1d9354e6.css.map": "/portfolio/static/css/main.1d9354e6.css.map",
+    "main.d3dcaa80.js.map": "/portfolio/static/js/main.d3dcaa80.js.map",
+    "111.6b0d8be4.chunk.js.map": "/portfolio/static/js/111.6b0d8be4.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.7265f521.js"
+    "static/css/main.1d9354e6.css",
+    "static/js/main.d3dcaa80.js"
   ]
 }
