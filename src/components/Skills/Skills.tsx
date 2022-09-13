@@ -1,7 +1,7 @@
 import React from 'react';
 import css from './Skills.module.css'
 import SkillItem from './SkillItem/SkillItem';
-import Title from '../../common/components/Title/Title';
+import Title from '../common/Title/Title';
 
 const Skills = () => {
     return (

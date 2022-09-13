@@ -21,20 +21,20 @@ const Header = () => {
 
             <header className="header-left">
                 <div className="scroll-bar">
-                    <div className="hl-top">
-                        {/*<div className="hl-logo">*/}
-                        <div>
-                            <a href="#">
-                                SB
-                            </a>
-                        </div>
-                        {/*<FontAwesomeIcon icon={icon}/>*/}
-                        {/*<span className="fa-solid fa-user"></span>*/}
-                        {/*<i className="fa-solid fa-user"></i>*/}
-                        {/*<span className="fa-solid fa-user"></span>*/}
-                        {/*<FontAwesomeIcon icon={solid('user-secret')}/>*/}
-                        {/*<FontAwesomeIcon icon={faEnvelope}/>*/}
-                    </div>
+                    {/*<div className="hl-top">*/}
+                    {/*    <div className="hl-logo">*/}
+                    {/*    <div>*/}
+                    {/*        <a href="#">*/}
+                    {/*            SB*/}
+                    {/*        </a>*/}
+                    {/*    </div>*/}
+                    {/*    /!*<FontAwesomeIcon icon={icon}/>*!/*/}
+                    {/*    /!*<span className="fa-solid fa-user"></span>*!/*/}
+                    {/*    /!*<i className="fa-solid fa-user"></i>*!/*/}
+                    {/*    /!*<span className="fa-solid fa-user"></span>*!/*/}
+                    {/*    /!*<FontAwesomeIcon icon={solid('user-secret')}/>*!/*/}
+                    {/*    /!*<FontAwesomeIcon icon={faEnvelope}/>*!/*/}
+                    {/*</div>*/}
                     <ul className="nav nav-menu">
                         {/*<li>
                             <a className="nav-link active" href="#home" data-toggle="tooltip" title="HOME">

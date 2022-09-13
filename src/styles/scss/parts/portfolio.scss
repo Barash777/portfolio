@@ -2,10 +2,13 @@
  Portfolio Start
 ------------------------------*/
 .portfolio-content {
+  //min-height: 100px;
+  //min-height: fit-content;
+  min-height: 150px;
+
   &.grid-col-2 {
     .grid-item {
       width: 50%;
-
       @include down-sm {
         width: 100%;
       }

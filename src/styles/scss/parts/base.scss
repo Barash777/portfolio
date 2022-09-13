@@ -33,6 +33,10 @@ html {
   line-height: $px-line-height;
   font-size: $px-font-size;
 
+  section:nth-child(2n) {
+    background: $px-gray;
+  }
+
   &.theme-light {
     background: $px-white;
     color: $px-body-light;
@@ -40,9 +44,32 @@ html {
   }
 }
 
-.test-style {
-  color: green;
+.underline {
+  display: inline-block;
+  position: relative;
+  //color: $px-font-size;
+
+  &::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: $px-theme;
+    transform-origin: bottom right;
+    transition: transform 0.35s ease;
+  }
+
+  &:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+
 }
+
 
 .font-alt {
   font-family: $px-font-alt;

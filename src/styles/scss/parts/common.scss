@@ -1,5 +1,10 @@
 /* Section
 ---------------------*/
+#about {
+  min-height: 100vh;
+  //padding: 200px 0;
+}
+
 .section {
   padding: 100px 0;
   position: relative;
@@ -22,6 +27,7 @@
 -----------------------------------*/
 .title {
   margin-bottom: 35px;
+  //margin-left: 5px;
   @include down-sm {
     margin-bottom: 25px;
   }
@@ -48,7 +54,7 @@
       background: $px-theme;
       position: absolute;
       top: -8px;
-      left: -15px;
+      left: -10px;
       z-index: -1;
 
       .theme-light & {
@@ -57,7 +63,7 @@
 
       @include down-md {
         top: -4px;
-        left: 0;
+        left: -10px;
       }
     }
   }
