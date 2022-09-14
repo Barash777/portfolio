@@ -26,7 +26,6 @@ const counterStyle = {
 
 const Projects = () => {
 
-
     return (
 
         <section id="projects" className="section">
@@ -34,14 +33,13 @@ const Projects = () => {
                 <Title title={'Projects'}/>
                 <div className={'row'}>
                     <ProjectItem image={todoImage} title={'social network'}/>
-                    <ProjectItem image={socialImage} title={'todolist'}/>
                     <ProjectItem image={counterImage} title={'todoasf'}/>
+                    <ProjectItem image={socialImage} title={'todolist'}/>
                     <ProjectItem image={todoImage} title={'todozxcvzxcv'}/>
                     <ProjectItem image={socialImage} title={'todoeww'}/>
-                    <ProjectItem image={counterImage} title={'todo'}/>
                     <ProjectItem image={todoImage} title={'todo'}/>
-                    <ProjectItem image={socialImage} title={'todo'}/>
                     <ProjectItem image={counterImage} title={'todo'}/>
+                    <ProjectItem image={socialImage} title={'todo'}/>
                 </div>
             </div>
         </section>

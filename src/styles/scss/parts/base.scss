@@ -4,6 +4,7 @@
 
 html {
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 
@@ -77,6 +78,14 @@ html {
 
 img {
   max-width: 100%;
+}
+
+.img-about {
+  //display: block;
+  //margin-left: auto;
+  //margin-right: auto;
+  margin-bottom: 2px;
+  max-width: 70%;
 }
 
 * {

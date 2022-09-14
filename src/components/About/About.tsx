@@ -3,6 +3,7 @@ import avatar from '../../assets/image/avatar_enot.jpeg'
 // import upwork from '../../assets/image/upwork.webp'
 // import freelancer from '../../assets/image/freelancer.webp.png'
 import freelancer from '../../assets/image/oie_transparent.png'
+import codewars from '../../assets/image/codewars trans.png'
 import Title from '../common/Title/Title';
 
 const myBirthday = new Date('Oct 02 1989')
@@ -18,12 +19,6 @@ const About = () => {
     return (
         <section id={'about'} className={'section'}>
             <div className={'container'}>
-                {/*<div className={css.about}>*/}
-                {/*    <span>Hi</span>*/}
-                {/*    <h1>I am Siarhei Baranouski</h1>*/}
-                {/*    <p>Frontend developer</p>*/}
-                {/*</div>*/}
-                {/*<div className={css.photo}></div>*/}
 
                 <div className="row align-items-center justify-content-center">
                     <div className="col-md-6 col-lg-4">
@@ -37,22 +32,31 @@ const About = () => {
                                         <i className="fab fa-github"></i>
                                     </a>
                                     <a href="https://www.freelancer.com/u/Barash777" target={'blank'}>
-                                        <i className="fab">
+                                        <i className={'fab'}>
                                             <img
+                                                // className={'img-about'}
                                                 src={freelancer}
                                                 title="freelancer"
                                                 alt="freelancer"
                                             />
                                         </i>
                                     </a>
-                                    <a href="https://www.mql5.com/ru/users/barash777" target={'blank'}>
-                                        <i>Mql</i>
+                                    <a href="https://www.codewars.com/users/Barash777" target={'blank'}>
+                                        {/*<i>Mql</i>*/}
+                                        <i className={'fab'}>
+                                            <img
+                                                className={'img-about'}
+                                                src={codewars}
+                                                title="codewars"
+                                                alt="codewars"
+                                            />
+                                        </i>
                                     </a>
                                     <a href="https://www.linkedin.com/in/siarhei-baranouski-83105a9b/" target={'blank'}>
                                         <i className="fab fa-linkedin-in"></i>
                                     </a>
-                                    <a href="https://vk.com/id11616944" target={'blank'}>
-                                        <i className="fab fa-vk"></i>
+                                    <a href="https://t.me/barash_777" target={'blank'}>
+                                        <i className="fab fa-telegram"></i>
                                     </a>
                                 </div>
                             </div>
@@ -70,11 +74,31 @@ const About = () => {
                         <div className="about-info">
                             <Title title={'About me'}/>
                             <div className="about-text">
-                                <p>I'm experienced programmer with more than 10 years of experience with
-                                    developing trade robots and indicators. I </p>
-                                <p>I'm a beginner Front-end Developer with 1 year of experience. I'm from
-                                    Belarus. I code and create web elements for amazing people around the
-                                    world. I like work with new people. New people new Experiences.</p>
+                                <p>Hi. I'm from Belarus. I'm experienced programmer with more than 10 years of
+                                    experience with
+                                    developing trade robots and indicators. Cause of sanctions I was need to
+                                    change my field of activity and start a new part of my life.</p>
+                                <p>Now I'm a beginner Front-end Developer with 1 year of experience. I code and create
+                                    web elements on React. Using Redux and TS in my projects. I had some part-time paid
+                                    works, mostly on freelance</p>
+                                <p>I have great accounts on mql5.com, freelancer.com and upwork.com, but last company
+                                    has
+                                    suspended my account cause I'm from Belarus and right now I can't show you it,
+                                    but you can be sure my rating is almost 5 stars there</p>
+
+                                <div>
+                                    <a className="underline" href="https://www.freelancer.com/u/Barash777"
+                                       target={'blank'}>My Freelancer.com account</a>
+                                </div>
+                                <div>
+                                    <a className="underline" href="https://www.mql5.com/ru/users/barash777"
+                                       target={'blank'}>My MQL5.com account</a>
+                                </div>
+
+                                <div className={'pt-3'}>
+                                    <p>I'll be happy to make some great projects for you!</p>
+                                </div>
+
 
                             </div>
                             <div className="info-list">
