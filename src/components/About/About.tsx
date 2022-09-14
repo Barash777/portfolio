@@ -1,8 +1,8 @@
 import React from 'react';
 import avatar from '../../assets/image/avatar_enot.jpeg'
-import upwork from '../../assets/image/upwork.webp'
-import freelancer from '../../assets/image/freelancer.webp.png'
-import freelancer2 from '../../assets/image/oie_transparent.png'
+// import upwork from '../../assets/image/upwork.webp'
+// import freelancer from '../../assets/image/freelancer.webp.png'
+import freelancer from '../../assets/image/oie_transparent.png'
 import Title from '../common/Title/Title';
 
 const myBirthday = new Date('Oct 02 1989')
@@ -39,7 +39,7 @@ const About = () => {
                                     <a href="https://www.freelancer.com/u/Barash777" target={'blank'}>
                                         <i className="fab">
                                             <img
-                                                src={freelancer2}
+                                                src={freelancer}
                                                 title="freelancer"
                                                 alt="freelancer"
                                             />
