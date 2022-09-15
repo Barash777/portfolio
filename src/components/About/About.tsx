@@ -1,9 +1,7 @@
 import React from 'react';
-import avatar from '../../assets/image/avatar_enot.jpeg'
-// import upwork from '../../assets/image/upwork.webp'
-// import freelancer from '../../assets/image/freelancer.webp.png'
-import freelancer from '../../assets/image/oie_transparent.png'
-import codewars from '../../assets/image/codewars trans.png'
+import avatar from '../../assets/images/avatar_enot.jpeg'
+import freelancer from '../../assets/images/logos/freelancer.png'
+import codewars from '../../assets/images/logos/codewars.png'
 import Title from '../common/Title/Title';
 
 const myBirthday = new Date('Oct 02 1989')
@@ -28,10 +26,10 @@ const About = () => {
                                     <img src={avatar} title="photo" alt="photo"/>
                                 </div>
                                 <div className="nav social-icons justify-content-center">
-                                    <a href="https://github.com/Barash777" target={'blank'}>
+                                    <a href="https://github.com/Barash777" target={'_blank'}>
                                         <i className="fab fa-github"></i>
                                     </a>
-                                    <a href="https://www.freelancer.com/u/Barash777" target={'blank'}>
+                                    <a href="https://www.freelancer.com/u/Barash777" target={'_blank'}>
                                         <i className={'fab'}>
                                             <img
                                                 // className={'img-about'}
@@ -41,7 +39,7 @@ const About = () => {
                                             />
                                         </i>
                                     </a>
-                                    <a href="https://www.codewars.com/users/Barash777" target={'blank'}>
+                                    <a href="https://www.codewars.com/users/Barash777" target={'_blank'}>
                                         {/*<i>Mql</i>*/}
                                         <i className={'fab'}>
                                             <img
@@ -52,11 +50,11 @@ const About = () => {
                                             />
                                         </i>
                                     </a>
-                                    <a href="https://www.linkedin.com/in/siarhei-baranouski-83105a9b/" target={'blank'}>
+                                    <a href="https://www.linkedin.com/in/siarhei-baranouski-83105a9b" target={'_blank'}>
                                         <i className="fab fa-linkedin-in"></i>
                                     </a>
-                                    <a href="https://t.me/barash_777" target={'blank'}>
-                                        <i className="fab fa-telegram"></i>
+                                    <a href="https://www.vk.com/id11616944" target={'_blank'}>
+                                        <i className="fab fa-vk"></i>
                                     </a>
                                 </div>
                             </div>
@@ -64,7 +62,7 @@ const About = () => {
                                 <p>Front-end Developer</p>
                                 <h3>Siarhei Baranouski</h3>
                                 <div className="btn-bar">
-                                    <a className="underline" href="#">Donwload CV</a>
+                                    <a className="underline" href="#" target={'_blank'}>Donwload CV</a>
                                 </div>
                             </div>
 
@@ -88,11 +86,11 @@ const About = () => {
 
                                 <div>
                                     <a className="underline" href="https://www.freelancer.com/u/Barash777"
-                                       target={'blank'}>My Freelancer.com account</a>
+                                       target={'_blank'}>My Freelancer.com account</a>
                                 </div>
                                 <div>
                                     <a className="underline" href="https://www.mql5.com/ru/users/barash777"
-                                       target={'blank'}>My MQL5.com account</a>
+                                       target={'_blank'}>My MQL5.com account</a>
                                 </div>
 
                                 <div className={'pt-3'}>
@@ -135,7 +133,13 @@ const About = () => {
                                             </li>
                                             <li>
                                                 <label>Telegram: </label>
-                                                <span>@Barash_777</span>
+                                                <span>
+                                                    <a className="underline"
+                                                       href="https://t.me/barash_777"
+                                                       target={'_blank'}>
+                                                        @Barash_777
+                                                    </a>
+                                                </span>
                                             </li>
                                             <li>
                                                 <label>Freelance: </label>

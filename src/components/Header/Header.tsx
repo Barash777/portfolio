@@ -1,18 +1,25 @@
 // import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 // import {faReact} from '@fortawesome/fontawesome-svg-core'
-import React from 'react';
+import React, {useState} from 'react';
 import MobileHeader from './MobileHeader/MobileHeader';
 // @ts-ignore
 import ScrollspyNav from 'react-scrollspy-nav';
 
 const Header = () => {
+
+    const [open, setOpen] = useState<boolean>(false)
+    let showMenuClasses = ''
+    if (open)
+        showMenuClasses = 'menu-open menu-open-desk'
+
     return (
 
         <>
 
-            <MobileHeader/>
+            <MobileHeader open={open} setOpen={setOpen}/>
 
-            <header className="header-left">
+
+            <header className={`header-left ${showMenuClasses}`}>
                 <ScrollspyNav
                     scrollTargetIds={['about', 'skills', 'projects', 'contacts']}
                     offset={0}

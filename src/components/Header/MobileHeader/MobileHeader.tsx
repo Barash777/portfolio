@@ -1,6 +1,16 @@
 import React from 'react';
 
-const MobileHeader = () => {
+type MobileHeaderProps = {
+    open: boolean,
+    setOpen: (open: boolean) => void
+}
+
+const MobileHeader = (props: MobileHeaderProps) => {
+
+    const onClickHandler = () => {
+        props.setOpen(!props.open)
+    }
+
     return (
         <div className="mob-header">
             <div className="d-flex">
@@ -9,7 +19,7 @@ const MobileHeader = () => {
                             Raquel
                         </a>
                     </div>*/}
-                <button className="toggler-menu">
+                <button className="toggler-menu" onClick={onClickHandler}>
                     <span></span>
                     <span></span>
                     <span></span>

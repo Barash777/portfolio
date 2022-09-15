@@ -1,8 +1,8 @@
 import React from 'react';
 import Title from '../common/Title/Title';
-import todoImage from '../../assets/image/m-portfolio-1.jpeg'
-import socialImage from '../../assets/image/m-portfolio-2.jpeg'
-import counterImage from '../../assets/image/m-portfolio-9.jpeg'
+import todoImage from '../../assets/images/projects/m-portfolio-1.jpeg'
+import socialImage from '../../assets/images/projects/m-portfolio-2.jpeg'
+import counterImage from '../../assets/images/projects/m-portfolio-9.jpeg'
 import ProjectItem from './ProjectItem';
 
 /*const commonStyle = {
