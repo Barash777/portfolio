@@ -11,7 +11,7 @@ const Footer = () => {
         <footer className="footer">
             <div className="container">
                 <div className="row align-items-center">
-                    <div className="col-md-6 m-10px-tb">
+                    <div className="col-md-6 m-20px-tb">
                         <div className="nav justify-content-center justify-content-md-start">
                             <a href="https://t.me/barash_777" target={'_blank'}><i className="fab fa-telegram"></i></a>
                             <a href="https://www.vk.com/id11616944" target={'_blank'}><i className="fab fa-vk"></i></a>

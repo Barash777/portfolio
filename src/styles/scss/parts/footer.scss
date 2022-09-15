@@ -1,6 +1,14 @@
 .footer {
-  padding: 12px 0;
+  padding: 12px 0 12px 80px;
   background: $px-dark;
+
+  @include down-md {
+    padding-left: 80px;
+  }
+
+  @include down-sm {
+    padding-left: 0;
+  }
 
   .theme-light & {
     background: $px-white;
