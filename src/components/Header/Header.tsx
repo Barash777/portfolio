@@ -24,7 +24,7 @@ const Header = () => {
                     scrollTargetIds={['about', 'skills', 'projects', 'contacts']}
                     offset={0}
                     activeNavClass="active"
-                    scrollDuration="500"
+                    scrollDuration="200"
                 >
                     <nav id="navbar" className="scroll-bar">
                         <ul className="nav nav-menu">
