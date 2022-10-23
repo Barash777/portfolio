@@ -6,7 +6,7 @@ import Projects from './components/Projects/Projects';
 import Freelance from './components/Freelance/Freelance';
 import Contacts from './components/Contacts/Contacts';
 import Footer from './components/Footer/Footer';
-import Test from './components/Test/Test';
+// import Test from './components/Test/Test';
 
 // import Loading from './components/Loading/Loading';
 
