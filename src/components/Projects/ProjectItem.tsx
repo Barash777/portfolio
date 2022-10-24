@@ -14,8 +14,8 @@ const ProjectItem = ({title, image, demo, source}: ItemPropsType) => {
             <div className="portfolio-info">
                 <h5 className="white-color font-weight-bold">{title}</h5>
                 <div className="row">
-                    <a className="col underline" href={demo ?? '#'}>Demo</a>
-                    <a className="col underline" href={source ?? '#'}>Source</a>
+                    <a className="col underline" href={demo ?? '#'} target={'_blank'} rel="noreferrer">Demo</a>
+                    <a className="col underline" href={source ?? '#'} target={'_blank'} rel="noreferrer">Source</a>
                 </div>
             </div>
             <div className="portfolio-img">

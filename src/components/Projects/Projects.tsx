@@ -5,25 +5,6 @@ import socialImage from '../../assets/images/projects/m-portfolio-2.jpeg'
 import counterImage from '../../assets/images/projects/m-portfolio-9.jpeg'
 import ProjectItem from './ProjectItem';
 
-/*const commonStyle = {
-    backgroundSize: 'cover',
-    backgroundPosition: 'center',
-    backgroundRepeat: 'no-repeat'
-}
-
-const todoStyle = {
-    ...commonStyle,
-    backgroundImage: `url(${todoImage})`,
-};
-const socialStyle = {
-    ...commonStyle,
-    backgroundImage: `url(${socialImage})`
-};
-const counterStyle = {
-    ...commonStyle,
-    backgroundImage: `url(${counterImage})`
-};*/
-
 const Projects = () => {
 
     return (
@@ -32,14 +13,24 @@ const Projects = () => {
             <div className="container">
                 <Title title={'Projects'}/>
                 <div className={'row'}>
-                    <ProjectItem image={todoImage} title={'social network'}/>
-                    <ProjectItem image={counterImage} title={'todoasf'}/>
-                    <ProjectItem image={socialImage} title={'todolist'}/>
-                    <ProjectItem image={todoImage} title={'todozxcvzxcv'}/>
-                    <ProjectItem image={socialImage} title={'todoeww'}/>
-                    <ProjectItem image={todoImage} title={'todo'}/>
-                    <ProjectItem image={counterImage} title={'todo'}/>
-                    <ProjectItem image={socialImage} title={'todo'}/>
+                    <ProjectItem
+                        image={todoImage}
+                        title={'social network'}
+                        demo={'https://barash777.github.io/samurai-way'}
+                        source={'https://github.com/Barash777/samurai-way'}
+                    />
+                    <ProjectItem
+                        image={counterImage}
+                        title={'todolist'}
+                        demo={'https://barash777.github.io/todolist'}
+                        source={'https://github.com/Barash777/todolist'}
+                    />
+                    <ProjectItem
+                        image={socialImage}
+                        title={'learn cards (team project)'}
+                        demo={'https://ticket1201.github.io/cards_quiz'}
+                        source={'https://github.com/ticket1201/cards_quiz'}
+                    />
                 </div>
             </div>
         </section>
