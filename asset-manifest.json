@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.b2c120f1.css",
-    "main.js": "/portfolio/static/js/main.d4503c11.js",
+    "main.js": "/portfolio/static/js/main.c1cca13f.js",
     "static/js/111.6b0d8be4.chunk.js": "/portfolio/static/js/111.6b0d8be4.chunk.js",
-    "static/media/portfolio-avatar.jpg": "/portfolio/static/media/portfolio-avatar.d6b3fc1c0ac0e3f1474e.jpg",
     "static/media/fa-solid-900.ttf": "/portfolio/static/media/fa-solid-900.b48ad290d0335879a92b.ttf",
     "static/media/fa-brands-400.ttf": "/portfolio/static/media/fa-brands-400.f9ee61fab3c11e2f3ed3.ttf",
     "static/media/fa-solid-900.woff2": "/portfolio/static/media/fa-solid-900.66104b766c3d0462b3c5.woff2",
+    "static/media/portfolio-avatar-2.jpg": "/portfolio/static/media/portfolio-avatar-2.74072fba345c292f4aaf.jpg",
     "static/media/fa-brands-400.woff2": "/portfolio/static/media/fa-brands-400.e1a247a5ef41e1975742.woff2",
     "static/media/todolist3.jpeg": "/portfolio/static/media/todolist3.6f144ff8d2579a5dca20.jpeg",
     "static/media/fa-regular-400.ttf": "/portfolio/static/media/fa-regular-400.abf801b7acb6705a15ad.ttf",
@@ -18,11 +18,11 @@
     "static/media/fa-v4compatibility.woff2": "/portfolio/static/media/fa-v4compatibility.745989aab0d69cab7e70.woff2",
     "index.html": "/portfolio/index.html",
     "main.b2c120f1.css.map": "/portfolio/static/css/main.b2c120f1.css.map",
-    "main.d4503c11.js.map": "/portfolio/static/js/main.d4503c11.js.map",
+    "main.c1cca13f.js.map": "/portfolio/static/js/main.c1cca13f.js.map",
     "111.6b0d8be4.chunk.js.map": "/portfolio/static/js/111.6b0d8be4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b2c120f1.css",
-    "static/js/main.d4503c11.js"
+    "static/js/main.c1cca13f.js"
   ]
 }
