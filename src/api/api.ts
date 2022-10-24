@@ -1,26 +1,15 @@
 import emailjs from '@emailjs/browser';
-import React from "react";
+import {FormDataType} from "../components/Contacts/Contacts";
 
 export const api = {
-    sendEmail: (form: React.MutableRefObject<any>) => {
-    // sendEmail: (data: FormDataType) => {
-    // sendEmail: () => {
+    sendEmail: (data: FormDataType) => {
         console.log('we are here')
-        // setIsSending(true)
-        // setStatus('Sending')
-        emailjs.sendForm('service_xpcumml', 'template_zex6ufn', form.current!, 'si30T-kEd_kjkWyc7')
+        console.log(data)
+        emailjs.send('service_xpcumml', 'template_zex6ufn', data, 'si30T-kEd_kjkWyc7')
             .then((result) => {
                 console.log(result.text);
-                // setStatus('Your message has been sent. Thank you.')
-                setTimeout(() => {
-                    // setIsSending(false)
-
-                }, 2000)
-
             }, (error) => {
                 console.log(error.text);
-                // setStatus('Oops, something went wrong...')
-                // setTimeout(() => {setIsSending(false)}, 2000)
             });
     }
 }

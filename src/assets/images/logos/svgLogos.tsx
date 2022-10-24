@@ -3,7 +3,7 @@ import React from 'react';
 const width = '3em'
 const height = '3em'
 
-export const formikLogo = <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img" height={height}
+export const formikLogo = <svg stroke="currentColor" fill="currentColor" strokeWidth="0" role="img" height={height}
                                viewBox="0 0 34.7 34.7"
                                width={width} xmlns="http://www.w3.org/2000/svg">
     <g fill="currentColor" transform="matrix(.400018502 0 0 .400018502 5.34987738 .55385626)">
@@ -24,7 +24,7 @@ export const formikLogo = <svg stroke="currentColor" fill="currentColor" stroke-
     </g>
 </svg>
 
-export const reactLogo = <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img"
+export const reactLogo = <svg stroke="currentColor" fill="currentColor" strokeWidth="0" role="img"
                               viewBox="0 0 24 24"
                               height={height} width={width} xmlns="http://www.w3.org/2000/svg"><title></title>
     <path
@@ -32,56 +32,56 @@ export const reactLogo = <svg stroke="currentColor" fill="currentColor" stroke-w
 </svg>
 
 
-export const reduxLogo = <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img"
+export const reduxLogo = <svg stroke="currentColor" fill="currentColor" strokeWidth="0" role="img"
                               viewBox="0 0 24 24"
                               height={height} width={width} xmlns="http://www.w3.org/2000/svg"><title></title>
     <path
         d="M16.634 16.504c.87-.075 1.543-.84 1.5-1.754-.047-.914-.796-1.648-1.709-1.648h-.061a1.71 1.71 0 00-1.648 1.769c.03.479.226.869.494 1.153-1.048 2.038-2.621 3.536-5.005 4.795-1.603.838-3.296 1.154-4.944.93-1.378-.195-2.456-.81-3.116-1.799-.988-1.499-1.078-3.116-.255-4.734.6-1.17 1.499-2.023 2.099-2.443a9.96 9.96 0 01-.42-1.543C-.868 14.408-.416 18.752.932 20.805c1.004 1.498 3.057 2.456 5.304 2.456.6 0 1.23-.044 1.843-.194 3.897-.749 6.848-3.086 8.541-6.532zm5.348-3.746c-2.32-2.728-5.738-4.226-9.634-4.226h-.51c-.253-.554-.837-.899-1.498-.899h-.045c-.943 0-1.678.81-1.647 1.753.03.898.794 1.648 1.708 1.648h.074a1.69 1.69 0 001.499-1.049h.555c2.309 0 4.495.674 6.488 1.992 1.527 1.005 2.622 2.323 3.237 3.897.538 1.288.509 2.547-.045 3.597-.855 1.647-2.294 2.517-4.196 2.517-1.199 0-2.367-.375-2.967-.644-.36.298-.96.793-1.394 1.093 1.318.598 2.652.943 3.94.943 2.922 0 5.094-1.647 5.919-3.236.898-1.798.824-4.824-1.47-7.416zM6.49 17.042c.03.899.793 1.648 1.708 1.648h.06a1.688 1.688 0 001.648-1.768c0-.9-.779-1.647-1.693-1.647h-.06c-.06 0-.15 0-.226.029-1.243-2.098-1.768-4.347-1.572-6.772.12-1.828.72-3.417 1.797-4.735.9-1.124 2.593-1.68 3.747-1.708 3.236-.061 4.585 3.971 4.689 5.574l1.498.45C17.741 3.197 14.686.62 11.764.62 9.02.62 6.49 2.613 5.47 5.535 4.077 9.43 4.991 13.177 6.7 16.174c-.15.195-.24.539-.21.868z"></path>
 </svg>
 
-export const tsLogo = <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img"
+export const tsLogo = <svg stroke="currentColor" fill="currentColor" strokeWidth="0" role="img"
                            viewBox="0 0 24 24"
                            height={height} width={width} xmlns="http://www.w3.org/2000/svg"><title></title>
     <path
         d="M1.125 0C.502 0 0 .502 0 1.125v21.75C0 23.498.502 24 1.125 24h21.75c.623 0 1.125-.502 1.125-1.125V1.125C24 .502 23.498 0 22.875 0zm17.363 9.75c.612 0 1.154.037 1.627.111a6.38 6.38 0 0 1 1.306.34v2.458a3.95 3.95 0 0 0-.643-.361 5.093 5.093 0 0 0-.717-.26 5.453 5.453 0 0 0-1.426-.2c-.3 0-.573.028-.819.086a2.1 2.1 0 0 0-.623.242c-.17.104-.3.229-.393.374a.888.888 0 0 0-.14.49c0 .196.053.373.156.529.104.156.252.304.443.444s.423.276.696.41c.273.135.582.274.926.416.47.197.892.407 1.266.628.374.222.695.473.963.753.268.279.472.598.614.957.142.359.214.776.214 1.253 0 .657-.125 1.21-.373 1.656a3.033 3.033 0 0 1-1.012 1.085 4.38 4.38 0 0 1-1.487.596c-.566.12-1.163.18-1.79.18a9.916 9.916 0 0 1-1.84-.164 5.544 5.544 0 0 1-1.512-.493v-2.63a5.033 5.033 0 0 0 3.237 1.2c.333 0 .624-.03.872-.09.249-.06.456-.144.623-.25.166-.108.29-.234.373-.38a1.023 1.023 0 0 0-.074-1.089 2.12 2.12 0 0 0-.537-.5 5.597 5.597 0 0 0-.807-.444 27.72 27.72 0 0 0-1.007-.436c-.918-.383-1.602-.852-2.053-1.405-.45-.553-.676-1.222-.676-2.005 0-.614.123-1.141.369-1.582.246-.441.58-.804 1.004-1.089a4.494 4.494 0 0 1 1.47-.629 7.536 7.536 0 0 1 1.77-.201zm-15.113.188h9.563v2.166H9.506v9.646H6.789v-9.646H3.375z"></path>
 </svg>
 
-export const gitLogo = <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img"
+export const gitLogo = <svg stroke="currentColor" fill="currentColor" strokeWidth="0" role="img"
                             viewBox="0 0 24 24"
                             height={height} width={width} xmlns="http://www.w3.org/2000/svg"><title></title>
     <path
         d="M23.546 10.93L13.067.452c-.604-.603-1.582-.603-2.188 0L8.708 2.627l2.76 2.76c.645-.215 1.379-.07 1.889.441.516.515.658 1.258.438 1.9l2.658 2.66c.645-.223 1.387-.078 1.9.435.721.72.721 1.884 0 2.604-.719.719-1.881.719-2.6 0-.539-.541-.674-1.337-.404-1.996L12.86 8.955v6.525c.176.086.342.203.488.348.713.721.713 1.883 0 2.6-.719.721-1.889.721-2.609 0-.719-.719-.719-1.879 0-2.598.182-.18.387-.316.605-.406V8.835c-.217-.091-.424-.222-.6-.401-.545-.545-.676-1.342-.396-2.009L7.636 3.7.45 10.881c-.6.605-.6 1.584 0 2.189l10.48 10.477c.604.604 1.582.604 2.186 0l10.43-10.43c.605-.603.605-1.582 0-2.187"></path>
 </svg>
 
-export const muiLogo = <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img"
+export const muiLogo = <svg stroke="currentColor" fill="currentColor" strokeWidth="0" role="img"
                             viewBox="0 0 24 24"
                             height={height} width={width} xmlns="http://www.w3.org/2000/svg"><title></title>
     <path
         d="M0 2.475v10.39l3 1.733V7.67l6 3.465 6-3.465v3.465l-6 3.463v3.464l6 3.463 9-5.195V9.402l-3 1.733v3.463l-6 3.464-3-1.732 6-3.465V2.475L9 7.67 0 2.475zm24 0l-3 1.73V7.67l3-1.732V2.474Z"></path>
 </svg>
 
-export const tailwindLogo = <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img"
+export const tailwindLogo = <svg stroke="currentColor" fill="currentColor" strokeWidth="0" role="img"
                                  viewBox="0 0 24 24"
                                  height={height} width={width} xmlns="http://www.w3.org/2000/svg"><title></title>
     <path
         d="M12.001,4.8c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 C13.666,10.618,15.027,12,18.001,12c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C16.337,6.182,14.976,4.8,12.001,4.8z M6.001,12c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 c1.177,1.194,2.538,2.576,5.512,2.576c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C10.337,13.382,8.976,12,6.001,12z"></path>
 </svg>
 
-export const storybookLogo = <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img"
+export const storybookLogo = <svg stroke="currentColor" fill="currentColor" strokeWidth="0" role="img"
                                   viewBox="0 0 24 24"
                                   height={height} width={width} xmlns="http://www.w3.org/2000/svg"><title></title>
     <path
         d="M16.71.243l-.12 2.71a.18.18 0 00.29.15l1.06-.8.9.7a.18.18 0 00.28-.14l-.1-2.76 1.33-.1a1.2 1.2 0 011.279 1.2v21.596a1.2 1.2 0 01-1.26 1.2l-16.096-.72a1.2 1.2 0 01-1.15-1.16l-.75-19.797a1.2 1.2 0 011.13-1.27L16.7.222zM13.64 9.3c0 .47 3.16.24 3.59-.08 0-3.2-1.72-4.89-4.859-4.89-3.15 0-4.899 1.72-4.899 4.29 0 4.45 5.999 4.53 5.999 6.959 0 .7-.32 1.1-1.05 1.1-.96 0-1.35-.49-1.3-2.16 0-.36-3.649-.48-3.769 0-.27 4.03 2.23 5.2 5.099 5.2 2.79 0 4.969-1.49 4.969-4.18 0-4.77-6.099-4.64-6.099-6.999 0-.97.72-1.1 1.13-1.1.45 0 1.25.07 1.19 1.87z"></path>
 </svg>
 
-export const jestLogo = <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img"
+export const jestLogo = <svg stroke="currentColor" fill="currentColor" strokeWidth="0" role="img"
                              viewBox="0 0 24 24"
                              height={height} width={width} xmlns="http://www.w3.org/2000/svg"><title></title>
     <path
         d="M22.251 11.82a3.117 3.117 0 0 0-2.328-3.01L22.911 0H8.104L11.1 8.838a3.116 3.116 0 0 0-2.244 2.988c0 1.043.52 1.967 1.313 2.536a8.279 8.279 0 0 1-1.084 1.244 8.14 8.14 0 0 1-2.55 1.647c-.834-.563-1.195-1.556-.869-2.446a3.11 3.11 0 0 0-.91-6.08 3.117 3.117 0 0 0-3.113 3.113c0 .848.347 1.626.903 2.182-.048.097-.097.195-.146.299-.465.959-.993 2.043-1.195 3.259-.403 2.432.257 4.384 1.849 5.489A5.093 5.093 0 0 0 5.999 24c1.827 0 3.682-.917 5.475-1.807 1.279-.632 2.599-1.292 3.898-1.612.48-.118.98-.187 1.508-.264 1.07-.153 2.175-.312 3.168-.89a4.482 4.482 0 0 0 2.182-3.091c.174-.994 0-1.994-.444-2.87.298-.48.465-1.042.465-1.647zm-1.355 0c0 .965-.785 1.75-1.75 1.75a1.753 1.753 0 0 1-1.085-3.126l.007-.007c.056-.042.118-.084.18-.125 0 0 .008 0 .008-.007.028-.014.055-.035.083-.05.007 0 .014-.006.021-.006.028-.014.063-.028.097-.042.035-.014.07-.027.098-.041.007 0 .013-.007.02-.007.028-.007.056-.021.084-.028.007 0 .02-.007.028-.007.034-.007.062-.014.097-.02h.007l.104-.022c.007 0 .02 0 .028-.007.028 0 .055-.007.083-.007h.035c.035 0 .07-.007.111-.007h.09c.028 0 .05 0 .077.007h.014c.055.007.111.014.167.028a1.766 1.766 0 0 1 1.396 1.723zM10.043 1.39h10.93l-2.509 7.4c-.104.02-.208.055-.312.09l-2.64-5.385-2.648 5.35c-.104-.034-.216-.055-.327-.076l-2.494-7.38zm4.968 9.825a3.083 3.083 0 0 0-.938-1.668l1.438-2.904 1.452 2.967c-.43.43-.743.98-.868 1.605H15.01zm-3.481-1.098c.034-.007.062-.014.097-.02h.02c.029-.008.056-.008.084-.015h.028c.028 0 .049-.007.076-.007h.271c.028 0 .049.007.07.007.014 0 .02 0 .035.007.027.007.048.007.076.014.007 0 .014 0 .028.007l.097.02h.007c.028.008.056.015.083.029.007 0 .014.007.028.007.021.007.049.014.07.027.007 0 .014.007.02.007.028.014.056.021.084.035h.007a.374.374 0 0 1 .09.049h.007c.028.014.056.034.084.048.007 0 .007.007.013.007.028.014.05.035.077.049l.007.007c.083.062.16.132.236.201l.007.007a1.747 1.747 0 0 1 .48 1.209 1.752 1.752 0 0 1-3.502 0 1.742 1.742 0 0 1 1.32-1.695zm-6.838-.049c.966 0 1.751.786 1.751 1.751s-.785 1.751-1.75 1.751-1.752-.785-1.752-1.75.786-1.752 1.751-1.752zm16.163 6.025a3.07 3.07 0 0 1-1.508 2.133c-.758.438-1.689.577-2.669.716a17.29 17.29 0 0 0-1.64.291c-1.445.355-2.834 1.05-4.182 1.717-1.724.854-3.35 1.66-4.857 1.66a3.645 3.645 0 0 1-2.154-.688c-1.529-1.056-1.453-3.036-1.272-4.12.167-1.015.632-1.966 1.077-2.877.028-.055.049-.104.077-.16.152.056.312.098.479.126-.264 1.473.486 2.994 1.946 3.745l.264.139.284-.104c1.216-.431 2.342-1.133 3.336-2.071a9.334 9.334 0 0 0 1.445-1.716c.16.027.32.034.48.034a3.117 3.117 0 0 0 3.008-2.327h1.167a3.109 3.109 0 0 0 3.01 2.327c.576 0 1.11-.16 1.57-.43.18.52.236 1.063.139 1.605z"></path>
 </svg>
 
-export const bootstrapLogo = <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img"
+export const bootstrapLogo = <svg stroke="currentColor" fill="currentColor" strokeWidth="0" role="img"
                                   height={height} width={width} viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg"
 >
     <path
@@ -89,7 +89,7 @@ export const bootstrapLogo = <svg stroke="currentColor" fill="currentColor" stro
         fill="currentColor"/>
 </svg>
 
-export const axiosLogo = <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img" version="1.0"
+export const axiosLogo = <svg stroke="currentColor" fill="currentColor" strokeWidth="0" role="img" version="1.0"
                               xmlns="http://www.w3.org/2000/svg"
                               width="7em" height={height} viewBox="0 0 392 160">
 
@@ -126,7 +126,7 @@ l-56 87 -55 0 c-30 0 -55 -2 -55 -5z"/>
     </g>
 </svg>
 
-export const reactHookFormLogo = <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img"
+export const reactHookFormLogo = <svg stroke="currentColor" fill="currentColor" strokeWidth="0" role="img"
                                       version="1.0" xmlns="http://www.w3.org/2000/svg"
                                       width={width} height={height} viewBox="0 0 130.000000 130.000000"
 >
