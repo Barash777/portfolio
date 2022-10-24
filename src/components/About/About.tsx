@@ -1,5 +1,5 @@
 import React from 'react';
-import avatar from '../../assets/images/portfolio-avatar.jpg'
+import avatar from '../../assets/images/portfolio-avatar-2.jpg'
 import freelancer from '../../assets/images/logos/freelancer.png'
 import codewars from '../../assets/images/logos/codewars.png'
 import Title from '../common/Title/Title';
