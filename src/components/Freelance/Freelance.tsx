@@ -9,7 +9,7 @@ const Freelance = () => {
             <div className="container">
                 <Title title={'I\'m ready for freelance'}/>
                 <div className={css.buttonContainer}>
-                    <Button title={'Hire me'}/>
+                    <Button title={'Hire me'} href={'#contacts'}/>
                 </div>
             </div>
         </section>
