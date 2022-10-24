@@ -8,8 +8,6 @@ type SkillPropsType = {
 
 const SkillItem = ({title, description, image}: SkillPropsType) => {
 
-    // const imageSize = '3em'
-
     return (
         <div className="col-md-6 m-15px-tb">
             <div className="feature-box-01">

@@ -1,8 +1,6 @@
 import React from 'react';
 import SkillItem from './SkillItem';
 import Title from '../common/Title/Title';
-// import {svgPaths} from '../../assets/images/logos/svgPaths';
-// import reactLogo from '../../assets/images/logos/react-2.svg'
 import {
     axiosLogo,
     bootstrapLogo,

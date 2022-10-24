@@ -39,7 +39,8 @@ const About = () => {
                                             />
                                         </i>
                                     </a>
-                                    <a href="https://www.codewars.com/users/Barash777" target={'_blank'} rel="noreferrer">
+                                    <a href="https://www.codewars.com/users/Barash777" target={'_blank'}
+                                       rel="noreferrer">
                                         {/*<i>Mql</i>*/}
                                         <i className={'fab'}>
                                             <img
@@ -50,7 +51,8 @@ const About = () => {
                                             />
                                         </i>
                                     </a>
-                                    <a href="https://www.linkedin.com/in/siarhei-baranouski-83105a9b" target={'_blank'} rel="noreferrer">
+                                    <a href="https://www.linkedin.com/in/siarhei-baranouski-83105a9b" target={'_blank'}
+                                       rel="noreferrer">
                                         <i className="fab fa-linkedin-in"></i>
                                     </a>
                                     <a href="https://www.vk.com/id11616944" target={'_blank'} rel="noreferrer">
@@ -153,223 +155,6 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-
-                {/*<div className="separated"></div>
-
-                    <div className="title">
-                        <h3>What I do?</h3>
-                    </div>
-                    <div className="row">
-                        <div className="col-lg-4 m-15px-tb">
-                            <div className="feature-box-01">
-                                <i className="icon theme-bg icon-mobile"></i>
-                                <div className="feature-content">
-                                    <h5>Web Design</h5>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 m-15px-tb">
-                            <div className="feature-box-01">
-                                <i className="icon theme-bg icon-desktop"></i>
-                                <div className="feature-content">
-                                    <h5>Web Development</h5>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 m-15px-tb">
-                            <div className="feature-box-01">
-                                <i className="icon theme-bg icon-target"></i>
-                                <div className="feature-content">
-                                    <h5>SEO Marketing</h5>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="separated"></div>
-
-                    <div className="title">
-                        <h3>Awards.</h3>
-                    </div>
-                    <div className="row">
-                        <div className="col-lg-4 m-15px-tb">
-                            <div className="feature-box-02 media align-items-center">
-                                <div className="icon">
-                                    <img src="static/img/a1.png" title="" alt="" />
-                                </div>
-                                <div className="media-body">
-                                    <h6>Honorable mension</h6>
-                                    <p>Site of the day</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 m-15px-tb">
-                            <div className="feature-box-02 media align-items-center">
-                                <div className="icon">
-                                    <img src="static/img/a2.png" title="" alt="" />
-                                </div>
-                                <div className="media-body">
-                                    <h6>Honorable mension</h6>
-                                    <p>Site of the day</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 m-15px-tb">
-                            <div className="feature-box-02 media align-items-center">
-                                <div className="icon">
-                                    <img src="static/img/a3.png" title="" alt="" />
-                                </div>
-                                <div className="media-body">
-                                    <h6>Honorable mension</h6>
-                                    <p>Site of the day</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="separated"></div>
-
-                    <div className="title">
-                        <h3>Testimonials.</h3>
-                    </div>
-                    <div className="owl-carousel owl-loaded owl-drag" data-items="2" data-nav-dots="true"
-                         data-md-items="2" data-sm-items="1" data-xs-items="1" data-xx-items="1" data-space="30"
-                         data-autoplay="true">
-
-
-                        <div className="owl-stage-outer">
-                            <div className="owl-stage"
-                                 style="transform: translate3d(-1140px, 0px, 0px); transition: all 0s ease 0s; width: 4560px;">
-                                <div className="owl-item cloned" style="width: 540px; margin-right: 30px;">
-                                    <div className="testimonial-01 media">
-                                        <div className="avatar">
-                                            <img src="static/img/team-3.jpg" title="" alt="">
-                                        </div>
-                                        <div className="media-body">
-                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting
-                                                industry. Lorem Ipsum has been the industry's standard dummy text ever
-                                                since the 1500s.</p>
-                                            <h6>Jennifer Lutheran</h6>
-                                            <span>CEO at pxdraft</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="owl-item cloned" style="width: 540px; margin-right: 30px;">
-                                    <div className="testimonial-01 media">
-                                        <div className="avatar">
-                                            <img src="static/img/team-1.jpg" title="" alt="">
-                                        </div>
-                                        <div className="media-body">
-                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting
-                                                industry. Lorem Ipsum has been the industry's standard dummy text ever
-                                                since the 1500s.</p>
-                                            <h6>Jennifer Lutheran</h6>
-                                            <span>CEO at pxdraft</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="owl-item active" style="width: 540px; margin-right: 30px;">
-                                    <div className="testimonial-01 media">
-                                        <div className="avatar">
-                                            <img src="static/img/team-1.jpg" title="" alt="">
-                                        </div>
-                                        <div className="media-body">
-                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting
-                                                industry. Lorem Ipsum has been the industry's standard dummy text ever
-                                                since the 1500s.</p>
-                                            <h6>Jennifer Lutheran</h6>
-                                            <span>CEO at pxdraft</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="owl-item active" style="width: 540px; margin-right: 30px;">
-                                    <div className="testimonial-01 media">
-                                        <div className="avatar">
-                                            <img src="static/img/team-2.jpg" title="" alt="">
-                                        </div>
-                                        <div className="media-body">
-                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting
-                                                industry. Lorem Ipsum has been the industry's standard dummy text ever
-                                                since the 1500s.</p>
-                                            <h6>Jennifer Lutheran</h6>
-                                            <span>CEO at pxdraft</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="owl-item" style="width: 540px; margin-right: 30px;">
-                                    <div className="testimonial-01 media">
-                                        <div className="avatar">
-                                            <img src="static/img/team-3.jpg" title="" alt="">
-                                        </div>
-                                        <div className="media-body">
-                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting
-                                                industry. Lorem Ipsum has been the industry's standard dummy text ever
-                                                since the 1500s.</p>
-                                            <h6>Jennifer Lutheran</h6>
-                                            <span>CEO at pxdraft</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="owl-item" style="width: 540px; margin-right: 30px;">
-                                    <div className="testimonial-01 media">
-                                        <div className="avatar">
-                                            <img src="static/img/team-1.jpg" title="" alt="">
-                                        </div>
-                                        <div className="media-body">
-                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting
-                                                industry. Lorem Ipsum has been the industry's standard dummy text ever
-                                                since the 1500s.</p>
-                                            <h6>Jennifer Lutheran</h6>
-                                            <span>CEO at pxdraft</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="owl-item cloned" style="width: 540px; margin-right: 30px;">
-                                    <div className="testimonial-01 media">
-                                        <div className="avatar">
-                                            <img src="static/img/team-1.jpg" title="" alt="" />
-                                        </div>
-                                        <div className="media-body">
-                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting
-                                                industry. Lorem Ipsum has been the industry's standard dummy text ever
-                                                since the 1500s.</p>
-                                            <h6>Jennifer Lutheran</h6>
-                                            <span>CEO at pxdraft</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="owl-item cloned" style="width: 540px; margin-right: 30px;">
-                                    <div className="testimonial-01 media">
-                                        <div className="avatar">
-                                            <img src="static/img/team-2.jpg" title="" alt="" />
-                                        </div>
-                                        <div className="media-body">
-                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting
-                                                industry. Lorem Ipsum has been the industry's standard dummy text ever
-                                                since the 1500s.</p>
-                                            <h6>Jennifer Lutheran</h6>
-                                            <span>CEO at pxdraft</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="owl-nav disabled">
-                            <div className="owl-prev"><i className="ti-arrow-left"></i></div>
-                            <div className="owl-next"><i className="ti-arrow-right"></i></div>
-                        </div>
-                        <div className="owl-dots">
-                            <div className="owl-dot active"><span></span></div>
-                            <div className="owl-dot"><span></span></div>
-                        </div>
-                    </div>*/}
-
             </div>
         </section>
     );
