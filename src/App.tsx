@@ -7,6 +7,8 @@ import Freelance from './components/Freelance/Freelance';
 import Contacts from './components/Contacts/Contacts';
 import Footer from './components/Footer/Footer';
 // import Test from './components/Test/Test';
+import { ReactNotifications } from 'react-notifications-component'
+import 'react-notifications-component/dist/theme.css'
 
 // import Loading from './components/Loading/Loading';
 
@@ -14,6 +16,7 @@ function App() {
 
     return (
         <div className="main theme-light fixed-header">
+            <ReactNotifications />
             <Header/>
             <div className={'main-left'}>
 
