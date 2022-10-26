@@ -64,7 +64,9 @@ const About = () => {
                                 <p>Front-end Developer</p>
                                 <h3>Siarhei Baranouski</h3>
                                 <div className="btn-bar">
-                                    <a className="underline" href="#" target={'_blank'} rel="noreferrer">Donwload CV</a>
+                                    <a className="underline"
+                                       href="https://drive.google.com/file/d/1XldhgP3FGyrOENuIhSZzLUsKTSkyyvFm/view"
+                                       target={'_blank'} rel="noreferrer">Download CV</a>
                                 </div>
                             </div>
 
@@ -79,7 +81,7 @@ const About = () => {
                                     developing trade robots and indicators. Cause of sanctions I was need to
                                     change my field of activity and start a new part of my life.</p>
                                 <p>Now I'm a beginner Front-end Developer with 1 year of experience. I code and create
-                                    web elements on React. Using Redux and TS in my projects. I had some part-time paid
+                                    web elements on React using Redux and TS in my projects. I had some part-time paid
                                     works, mostly on freelance</p>
                                 <p>I have great accounts on mql5.com, freelancer.com and upwork.com, but last company
                                     has
